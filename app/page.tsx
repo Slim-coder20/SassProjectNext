@@ -3,6 +3,7 @@ import Logo from "@/public/logo.svg";
 import Link from "next/link";
 import { Typewriter, Cursor } from "react-simple-typewriter";
 import Image from "next/image";
+import ButtonProvider from "./components/ButtonProvider";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         </span>
       </h1>
       <p className="my-2 text-center uppercase">Rejoignez nous </p>
+      <ButtonProvider/>
     </section>
   );
 }
